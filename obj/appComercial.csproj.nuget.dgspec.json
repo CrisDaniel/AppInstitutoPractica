@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Christian\\Downloads\\appComercial\\appComercial.csproj": {}
+    "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\appComercial\\appComercial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Christian\\Downloads\\appComercial\\appComercial.csproj": {
+    "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\appComercial\\appComercial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christian\\Downloads\\appComercial\\appComercial.csproj",
+        "projectUniqueName": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\appComercial\\appComercial.csproj",
         "projectName": "appComercial",
-        "projectPath": "C:\\Users\\Christian\\Downloads\\appComercial\\appComercial.csproj",
+        "projectPath": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\appComercial\\appComercial.csproj",
         "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christian\\Downloads\\appComercial\\obj\\",
+        "outputPath": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\appComercial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

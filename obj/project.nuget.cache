@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xu2SXS/7HAE=",
+  "dgSpecHash": "KfPH3SH8MZE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Christian\\Downloads\\appComercial\\appComercial.csproj",
+  "projectFilePath": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\institutoSanJuan\\institutoSanJuan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Christian\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Christian\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,41 +1,31 @@
 [
   {
-    "ContainingType": "appComercial.Controllers.CategoriasController",
-    "Method": "GetCategoria",
-    "RelativePath": "api/Categorias",
+    "ContainingType": "institutoSanJuan.Controllers.CursosController",
+    "Method": "GetCursos",
+    "RelativePath": "api/Cursos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[appComercial.Models.Categoria, appComercial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "appComercial.Controllers.CategoriasController",
-    "Method": "PostCategoria",
-    "RelativePath": "api/Categorias",
+    "ContainingType": "institutoSanJuan.Controllers.CursosController",
+    "Method": "PostCursos",
+    "RelativePath": "api/Cursos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoria",
-        "Type": "appComercial.Models.Categoria",
+        "Name": "cursos",
+        "Type": "institutoSanJuan.Models.Cursos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "appComercial.Models.Categoria",
+        "Type": "institutoSanJuan.Models.Cursos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,9 +36,9 @@
     ]
   },
   {
-    "ContainingType": "appComercial.Controllers.CategoriasController",
-    "Method": "GetCategoria",
-    "RelativePath": "api/Categorias/{id}",
+    "ContainingType": "institutoSanJuan.Controllers.CursosController",
+    "Method": "GetCursos",
+    "RelativePath": "api/Cursos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -59,22 +49,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "appComercial.Models.Categoria",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "appComercial.Controllers.CategoriasController",
-    "Method": "PutCategoria",
-    "RelativePath": "api/Categorias/{id}",
+    "ContainingType": "institutoSanJuan.Controllers.CursosController",
+    "Method": "PutCursos",
+    "RelativePath": "api/Cursos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -85,17 +65,17 @@
         "IsRequired": true
       },
       {
-        "Name": "categoria",
-        "Type": "appComercial.Models.Categoria",
+        "Name": "cursos",
+        "Type": "institutoSanJuan.Models.Cursos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "appComercial.Controllers.CategoriasController",
-    "Method": "DeletCategoria",
-    "RelativePath": "api/Categorias/{id}",
+    "ContainingType": "institutoSanJuan.Controllers.CursosController",
+    "Method": "DeletCursos",
+    "RelativePath": "api/Cursos/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -109,284 +89,39 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "appComercial.Controllers.CategoriasController",
-    "Method": "PatchCategoria",
-    "RelativePath": "api/Categorias/{id}/nombre",
-    "HttpMethod": "PATCH",
+    "ContainingType": "institutoSanJuan.Controllers.CursosController",
+    "Method": "GetCursosPorCiclo",
+    "RelativePath": "api/Cursos/ciclo/{ciclo}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "newCategoria",
+        "Name": "ciclo",
         "Type": "System.String",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "appComercial.Controllers.ProductosController",
-    "Method": "GetProducto",
-    "RelativePath": "api/Productos",
+    "ContainingType": "institutoSanJuan.Controllers.DocenteController",
+    "Method": "GetDocentes",
+    "RelativePath": "api/Docente",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[appComercial.Models.Producto, appComercial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProductosController",
-    "Method": "PostProducto",
-    "RelativePath": "api/Productos",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "producto",
-        "Type": "appComercial.Models.Producto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "appComercial.Models.Producto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProductosController",
-    "Method": "GetProducto",
-    "RelativePath": "api/Productos/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "appComercial.Models.Producto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProductosController",
-    "Method": "PutProducto",
-    "RelativePath": "api/Productos/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "producto",
-        "Type": "appComercial.Models.Producto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProductosController",
-    "Method": "DeletProduct",
-    "RelativePath": "api/Productos/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProductosController",
-    "Method": "PatchProducto",
-    "RelativePath": "api/Productos/{id}/precio",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "newPrecio",
-        "Type": "System.Decimal",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProveedoresController",
-    "Method": "GetProveedores",
-    "RelativePath": "api/Proveedores",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[appComercial.Models.Proveedores, appComercial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProveedoresController",
-    "Method": "PostProveedores",
-    "RelativePath": "api/Proveedores",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "proveedor",
-        "Type": "appComercial.Models.Proveedores",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "appComercial.Models.Proveedores",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProveedoresController",
-    "Method": "GetProveedores",
-    "RelativePath": "api/Proveedores/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "appComercial.Models.Proveedores",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProveedoresController",
-    "Method": "PutProveedores",
-    "RelativePath": "api/Proveedores/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "proveedor",
-        "Type": "appComercial.Models.Proveedores",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProveedoresController",
-    "Method": "DeletProveedores",
-    "RelativePath": "api/Proveedores/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "appComercial.Controllers.ProveedoresController",
-    "Method": "PatchProveedores",
-    "RelativePath": "api/Proveedores/{id}/nombre",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "newProveedor",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -399,7 +134,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[appComercial.WeatherForecast, appComercial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[appComercial.WeatherForecast, institutoSanJuan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,14 +1,13 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using appComercial.Models;
+using institutoSanJuan.Models;
 
-namespace appComercial.Data
+namespace institutoSanJuan.Data
 {
     public class AppDbContext: DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-        public DbSet<Producto> productos { get; set; }
-        public DbSet<Categoria> categorias { get; set; }
-        public DbSet<Proveedores> proveedores { get; set; }
+        public DbSet<Cursos> Cursos { get; set; }
+        public DbSet<Docente> Docente { get; set; }
     }
 }

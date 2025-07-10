@@ -81,10 +81,14 @@ C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\staticwebassets\msbui
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.appComercial.props
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.appComercial.props
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\appComer.56EB7127.Up2Date
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\appComercial.dll
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\refint\appComercial.dll
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\appComercial.pdb
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\appComercial.genruntimeconfig.cache
 C:\Users\Christian\Downloads\appComercial\obj\Debug\net8.0\ref\appComercial.dll
+C:\Users\Christian\Downloads\appComercial\bin\Debug\net8.0\app-frontend\package-lock.json
+C:\Users\Christian\Downloads\appComercial\bin\Debug\net8.0\app-frontend\package.json
+C:\Users\Christian\Downloads\appComercial\bin\Debug\net8.0\app-frontend\public\manifest.json
+C:\Users\Christian\Downloads\appComercial\bin\Debug\net8.0\package-lock.json
+C:\Users\Christian\Downloads\appComercial\bin\Debug\net8.0\package.json
