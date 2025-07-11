@@ -38,4 +38,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+//forzar que escuche en el puerto asignado por Render
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Run($"http://0.0.0.0:{port}");
+//app.Run();

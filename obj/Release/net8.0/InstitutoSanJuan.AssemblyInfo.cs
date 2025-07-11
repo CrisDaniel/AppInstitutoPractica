@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("institutoSanJuan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19350d3e01c0e61fad3e9c45fd1d25f22bec9f01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99c7b37aedb0992387d5e8714546c24080f4e3da")]
 [assembly: System.Reflection.AssemblyProductAttribute("institutoSanJuan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("institutoSanJuan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
