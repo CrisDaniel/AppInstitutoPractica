@@ -5,7 +5,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Add services to the container.
 
+// Habilitar CORS
 builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirTodo",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
+
+/*builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
@@ -13,7 +22,7 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
-});
+});*/
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -38,7 +47,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-//forzar que escuche en el puerto asignado por Render
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-app.Run($"http://0.0.0.0:{port}");
-//app.Run();
+app.Run();
