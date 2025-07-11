@@ -92,3 +92,4 @@ C:\Users\Christian\Downloads\PracticaSanJuanApi\institutoSanJuan\obj\Debug\net8.
 C:\Users\Christian\Downloads\PracticaSanJuanApi\institutoSanJuan\bin\Debug\net8.0\instituto-crud\package-lock.json
 C:\Users\Christian\Downloads\PracticaSanJuanApi\institutoSanJuan\bin\Debug\net8.0\instituto-crud\package.json
 C:\Users\Christian\Downloads\PracticaSanJuanApi\institutoSanJuan\obj\Debug\net8.0\institutoSanJuan.sourcelink.json
+C:\Users\Christian\Downloads\PracticaSanJuanApi\institutoSanJuan\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

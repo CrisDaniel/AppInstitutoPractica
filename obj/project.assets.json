@@ -3239,9 +3239,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\institutoSanJuan\\InstitutoSanJuan.csproj",
-      "projectName": "InstitutoSanJuan",
-      "projectPath": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\institutoSanJuan\\InstitutoSanJuan.csproj",
+      "projectUniqueName": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\institutoSanJuan\\institutoSanJuan.csproj",
+      "projectName": "institutoSanJuan",
+      "projectPath": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\institutoSanJuan\\institutoSanJuan.csproj",
       "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Christian\\Downloads\\PracticaSanJuanApi\\institutoSanJuan\\obj\\",
       "projectStyle": "PackageReference",
@@ -3274,9 +3274,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3314,7 +3314,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
