@@ -27,7 +27,7 @@ namespace institutoSanJuan.Controllers
                     c.Creditos,
                     c.HorasSemanal,
                     c.Ciclo,
-                    Docente = c.Docente.Nombres + " " + c.Docente.Apellidos
+                    Docente = c.Docente.Apellidos + " " + c.Docente.Nombres
                 })
                 .ToListAsync();
 
