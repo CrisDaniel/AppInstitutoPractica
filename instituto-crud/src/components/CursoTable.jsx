@@ -21,7 +21,6 @@ const CursoTable = () => {
     const fetchDocentes = async () => {
         const res = await api.get('/Docente');
         setDocentes(res.data);
-        console.log('Docentes:', res.data);
     };
 
     useEffect(() => {

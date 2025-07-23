@@ -11,5 +11,6 @@ namespace institutoSanJuan.Data
         public DbSet<Docente> Docente { get; set; }
         public DbSet<Estudiantes> Estudiante { get; set; }
         public DbSet<Matriculas> Matricula { get; set; }
+        public DbSet<Notas> Notas { get; set; }
     }
 }

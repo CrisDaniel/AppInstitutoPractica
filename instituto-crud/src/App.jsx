@@ -7,6 +7,7 @@ import MatriculaTable from './components/MatriculaTable';
 import Navbar from './components/Navbar';
 import { CssBaseline, Container } from '@mui/material';
 import Box from '@mui/material/Box';
+import NotasTable from './components/NotasTable';
 
 const App = () => {
     return (
@@ -31,6 +32,7 @@ const App = () => {
                     <Route path="/docentes" element={<DocenteTable />} />
                     <Route path="/estudiantes" element={<EstudianteTable />} />
                     <Route path="/matriculas" element={<MatriculaTable />} />
+                    <Route path="/notas" element={<NotasTable />} />
                     <Route path="*" element={<CursoTable />} /> {/* Redirección por defecto */}
                 </Routes>
             </Container>
