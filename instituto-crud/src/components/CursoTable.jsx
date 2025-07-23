@@ -41,7 +41,7 @@ const CursoTable = () => {
     };
 
     const handleDelete = async (id) => {
-        await api.delete(`/${id}`);
+        await api.delete(`/Cursos/${id}`);
         fetchCursos();
     };
 

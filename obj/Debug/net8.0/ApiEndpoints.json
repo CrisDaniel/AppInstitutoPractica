@@ -323,6 +323,79 @@
     ]
   },
   {
+    "ContainingType": "institutoSanJuan.Controllers.MatriculasController",
+    "Method": "GetMatriculas",
+    "RelativePath": "api/Matriculas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "institutoSanJuan.Controllers.MatriculasController",
+    "Method": "PostMatriculas",
+    "RelativePath": "api/Matriculas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matricula",
+        "Type": "institutoSanJuan.Models.Matriculas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "institutoSanJuan.Models.Matriculas",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "institutoSanJuan.Controllers.MatriculasController",
+    "Method": "PutMatriculas",
+    "RelativePath": "api/Matriculas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "matricula",
+        "Type": "institutoSanJuan.Models.Matriculas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "institutoSanJuan.Controllers.MatriculasController",
+    "Method": "DeletMatriculas",
+    "RelativePath": "api/Matriculas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "appComercial.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
